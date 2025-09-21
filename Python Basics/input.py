@@ -7,8 +7,8 @@ first_money = input("Enter first amount : ")
 second_money = input("Enter second amount : ")
 print(first_money + second_money)
 
-#After typecasting
 
+#After Typecasting
 first_money = input("Enter first amount : ")
 second_money = input("Enter second amount : ")
 print(int(first_money) + int(second_money))
