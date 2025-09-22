@@ -20,6 +20,33 @@ fruits2.clear()           # remove all items
 print(fruits2)  # []
 
 
+numbers = [10, 20, 30, 40]
+
+print(len(numbers))    # 4
+print(max(numbers))    # 40
+print(min(numbers))    # 10
+print(sum(numbers))    # 100
+print(sorted(numbers, reverse=True))  # [40, 30, 20, 10]
+
+
+
+fruit = ["apple", "banana", "cherry", "banana"]
+
+print(fruit.index("banana"))   # 1 (first occurrence)
+print(fruit.count("banana"))   # 2 (count duplicates)
+
+fruit.sort()                   # sort alphabetically
+print(fruit)                   # ['apple', 'banana', 'banana', 'cherry']
+
+fruit.reverse()                # reverse order
+print(fruit)                   # ['cherry', 'banana', 'banana', 'apple']
+
+
+
+grades = [85, 90, 78]
+average = sum(grades) / len(grades)
+print("Average :", average)  # Average: 84.3333
+
 
 
 # Visit for more (https://docs.python.org/3/tutorial/datastructures.html)
