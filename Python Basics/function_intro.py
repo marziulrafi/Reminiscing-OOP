@@ -5,6 +5,8 @@ def add_two(a, b):
 result = add_two(5, 4)
 print(result)  # 9
 
+def subtract(a, b):
+    return a - b
 
 
 # default parameter c=0
